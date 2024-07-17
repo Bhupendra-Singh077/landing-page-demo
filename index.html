@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <title>Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+  <link rel="stylesheet" href="style.css" />
+
+
+</head>
+<script type="module" src="script.js"></script>
+
+<body>
+  
+  <header id="header">
+    <div class="header-content">
+      <a href="#home-section">
+        <img src="images/icon.png" alt="Company Logo" id="header-img" /></a>
+      <nav id="nav-bar">
+        <a href="#home-section" class="nav-link">HOME</a>
+        <a href="#services" class="nav-link">SERVICES</a>
+        <a href="#our-section" class="nav-link">OUR PROJECTS</a>
+        <a href="#our-service" class="nav-link">OUR SERVICE</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+      </nav>
+    </div>
+  </header>
+  <main>
+
+
+    
+    <section id="home-section" class="flexible home-section">
+
+      <div class="home-content">
+        <h3>WHAT WE DO</h3>
+        <h1>DIGITAL MARKETING</h1>
+        <h2>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem libero asperiores amet expedita
+          impedit adipisci.
+        </h2>
+        <button class="btn" data-toggle="modal" data-target="#myModal">
+          Contact Us
+        </button>
+      </div>
+      <div class="home-content-img">
+        <img src="images/home-1.png" alt="Image of Apples" />
+      </div>
+    </section>
+
+
+    <section id="services">
+      <div class="services-content">
+        <div class="content-first">
+          <h3>WHAT WE DO</h3>
+          <h1>SERVICES PROVIDE FOR YOU</h1>
+        </div>
+        <div class="content-second">
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae debitis
+            aspernatur totam, eligendi laborum doloribus rem quam repudiandae explicabo iure?</p>
+        </div>
+      </div>
+      <div class="container swiper">
+        <div class="slider-wrapper">
+          <div class="card-list swiper-wrapper">
+            <div class="card-item swiper-slide">
+              <img src="images/slider1.jpg" alt="User Image" class="user-image">
+
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="images/slider2.jpg" alt="User Image" class="user-image">
+
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="images/slider4.jpg" alt="User Image" class="user-image">
+
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="images/slider3.jpg" alt="User Image" class="user-image">
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="images/slider5.jpg" alt="User Image" class="user-image">
+            </div>
+            <div class="card-item swiper-slide">
+              <img src="images/slider6.jpg" alt="User Image" class="user-image">
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+      </div>
+      <!-- Linking SwiperJS script -->
+      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    </section>
+
+
+    <!-- WE ARE BEST SECTION -->
+    <section id="varieties" class="section-padding">
+      <h3 class="section-heading">WE ARE BEST SECTION</h3>
+      <div class="section-content flexible">
+        <div class="tile">
+          <img src="images/target.png" alt=".." />
+          <h4>Clarified Vision & Target</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. A ipsa magni minus esse rem debitis!
+          </p>
+        </div>
+        <div class="tile">
+          <img src="images/highper.png" alt=".." />
+          <h4>High Performance</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat quam quae, error harum explicabo
+            voluptatibus?
+          </p>
+        </div>
+        <div class="tile">
+          <img src="images/security.png" alt=".." />
+          <h4>Maintain Security</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis asperiores enim harum doloremque totam
+            rerum!
+          </p>
+        </div>
+        <div class="tile">
+          <img src="images/thumb.png" alt=".." />
+          <h4>Better Strategy & Quality</h4>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam rem aspernatur totam quae itaque.
+            Accusantium.
+          </p>
+
+
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+    <!-- our section  -->
+
+    <section id="our-section" class="flexible our-section">
+      
+        <h1>OUR PROJECTS</h1>
+      <div class="container">
+        
+        <div class="image-container">
+
+          <img id="image1" src="images/slider4.jpg" alt="Image 1" class="image">
+          <img id="image2" src="images/slider6.jpg" alt="Image 2" class="image">
+          <img id="image3" src="images/slider1.jpg" alt="Image 3" class="image">
+        </div>
+        <div class="our-content">
+          <div class="content">
+          <span onclick="showImage('image1')">
+            <h2>heading 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, libero. Vitae iure a distinctio magnam
+              quae facere dolorum quis impedit eligendi ex aut dolor obcaecati, eveniet quibusdam. Reprehenderit, eius?
+              Ipsam. </p>
+          </span>
+        </div>
+        <div class="content">
+          <span onclick="showImage('image2')">
+            <h2>heading 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, libero. Vitae iure a distinctio magnam
+              quae facere dolorum quis impedit eligendi ex aut dolor obcaecati, eveniet quibusdam. Reprehenderit, eius?
+              Ipsam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur nam reprehenderit autem quam illo voluptatem!</p>
+          </span>
+        </div>
+        <div class="content">
+          <span onclick="showImage('image3')">
+            <h2>heading 3</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, libero. Vitae iure a distinctio magnam
+              quae facere dolorum quis impedit eligendi ex aut dolor obcaecati, eveniet quibusdam. Reprehenderit, eius?
+              Ipsam. Lorem ipsum dolor sit amet consectetur adipisicing elctetur, quidem aliquam?</p>
+          </span>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      document.getElementById('image1').style.display = 'block';
+
+      function showImage(imageId) {
+        // Hide all images
+        const images = document.querySelectorAll('.image');
+        images.forEach(image => {
+          image.style.display = 'none';
+        });
+
+        // Show the selected image
+        document.getElementById(imageId).style.display = 'block';
+      }
+    </script>
+    <!-- </section> -->
+
+
+    <!-- our comany growth -->
+    <section id="varieties" class="section-padding">
+      <h3>EXPERTS GROWTH</h3>
+      <h1>OUR COMPANY GROWTH</h1>
+      <div class="section-content flexible">
+        <div class="tile" id="title-growth">
+          <img src="images/heart.png" alt=".." />
+          <h4>199+</h4>
+          <p>
+            Who's up for a veggie challenge?
+          </p>
+        </div>
+        <div class="tile" id="title-growth">
+          <img src="images/watch.png" alt=".." />
+          <h4>1591+</h4>
+          <p>
+            Who's up for a veggie challenge?
+          </p>
+        </div>
+        <div class="tile" id="title-growth">
+          <img src="images/check.png" alt=".." />
+          <h4>283+</h4>
+          <p>
+            Who's up for a veggie challenge?
+          </p>
+        </div>
+
+        <div class="tile" id="title-growth">
+          <img src="images/award.png" alt=".." />
+          <h4>75+</h4>
+          <p>
+            Who's up for a veggie challenge?
+          </p>
+        </div>
+
+
+      </div>
+
+    </section>
+
+    <section id="our-service">
+      <div class="our-section-content">
+        <h3>CLIENT'S FEEDBACK</h3>
+        <h1>PEOPLE SAY'S ABOUT US !</h1>
+        <p class="section-para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae debitis
+          aspernatur totam, eligendi laborum doloribus rem quam repudiandae explicabo iure?</p>
+        <h6><span>User name</span> - other content</h6>
+      </div>
+    </section>
+
+
+  </main>
+  <footer>
+    <div class="section-footer">
+      <img src="" alt="logo dsing in logo">
+      <img src="" alt="logo">
+      <img src="" alt="logo">
+      <img src="" alt="logo">
+      <img src="" alt="logo">
+      <img src="" alt="logo design">
+    </div>
+  </footer>
+</body>
+
+</html>
